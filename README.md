@@ -55,6 +55,8 @@ A custom policy is rejected when it is null or empty, contains a null band, repe
 
 Cumulative GPA and cohort comparisons include completed semesters only. Course comparisons combine completed attempts of that course. The reported average performer is the student whose GPA is closest to the cohort's arithmetic mean.
 
+The Question 1 UML class diagram (grading classes, factory and tests only) is in `docs/Q1GradingPolicyClassDiagram.md`; the full system diagram stays in `docs/GpaSystemClassDiagram.md`.
+
 ## Grading Policy Tests
 
 `GradingPolicyManagerTest` (grouped in nested classes), `GradingPolicyFactoryTest` and `GradeBandTest` cover:
